@@ -49,5 +49,5 @@ server {
     include                 boilerplate/locations/errors.conf;
     include                 boilerplate/locations/static.conf;
 
-    add_header              Content-Security-Policy "default-src 'self' https://maxcdn.bootstrapcdn.com";
+    add_header              Content-Security-Policy "default-src 'self' https://maxcdn.bootstrapcdn.com https://code.jquery.com https://cdnjs.cloudflare.com";
 }
