@@ -16,8 +16,6 @@ server {
     listen                  443 ssl http2;
 
     include                 boilerplate/enable/ssl.conf;
-    ssl_certificate         /etc/nginx/certs/www.ethanmott.com-fullchain.pem;
-    ssl_certificate_key     /etc/nginx/certs/www.ethanmott.com-privkey.pem;
 
     return                  301 https://ethanmott.com$request_uri;
 }
